@@ -216,7 +216,7 @@ After completing this repository, you will understand:
 https://github.com/Chandrashekhar-cloud
 
 ## LinkedIn
-Add your LinkedIn profile link here
+https://www.linkedin.com/in/chandrashekhar-68844b3a3?utm_source=share_via&utm_content=profile&utm_medium=member_android
 
 ---
 
