@@ -89,3 +89,162 @@ docker run -d -p 8080:80 nginx
 ```bash
 docker ps
 ```
+
+## Stop Container
+
+```bash
+docker stop <container_id>
+```
+
+## Remove Container
+
+```bash
+docker rm <container_id>
+```
+
+## Remove Docker Image
+
+```bash
+docker rmi <image_id>
+```
+
+---
+
+# 🐍 Dockerize Python Application
+
+## Dockerfile
+
+```Dockerfile
+FROM python:3.11
+
+WORKDIR /app
+
+COPY . .
+
+CMD ["python", "app.py"]
+```
+
+## Build Docker Image
+
+```bash
+docker build -t python-app .
+```
+
+## Run Python Container
+
+```bash
+docker run python-app
+```
+
+---
+
+# 🌐 Nginx Container Setup
+
+## Run Nginx
+
+```bash
+docker run -d -p 8080:80 nginx
+```
+
+## Open in Browser
+
+```bash
+http://localhost:8080
+```
+
+---
+
+# 💾 Docker Volumes
+
+## Create Volume
+
+```bash
+docker volume create myvolume
+```
+
+## Use Volume
+
+```bash
+docker run -v myvolume:/data nginx
+```
+
+---
+
+# 🔗 Docker Networking
+
+## Create Docker Network
+
+```bash
+docker network create mynetwork
+```
+
+## Run Container in Network
+
+```bash
+docker run --network=mynetwork nginx
+```
+
+---
+
+# 📸 Screenshots
+
+Create a folder named:
+
+```bash
+screenshots/
+```
+
+Add screenshots of:
+- Docker installation
+- Running containers
+- Docker commands
+- Nginx running in browser
+- Docker Desktop
+
+---
+
+# 🎯 Learning Outcomes
+
+After completing this repository, you will understand:
+
+✅ Docker fundamentals  
+✅ Container lifecycle management  
+✅ Docker image creation  
+✅ Port mapping and networking  
+✅ Docker volumes and storage  
+✅ Running applications inside containers  
+✅ Basic DevOps workflows  
+
+---
+
+# 📈 Future Enhancements
+
+- Docker Compose
+- Multi-container applications
+- CI/CD pipeline integration
+- Kubernetes basics
+- AWS Docker deployment
+- Monitoring containers
+
+---
+
+# 🤝 Connect With Me
+
+## GitHub
+https://github.com/Chandrashekhar-cloud
+
+## LinkedIn
+Add your LinkedIn profile link here
+
+---
+
+# ⭐ Support
+
+If you found this repository useful, give it a ⭐ on GitHub and follow for more DevOps, Cloud, Docker, and AI/ML projects.
+
+---
+
+# 👨‍💻 Author
+
+**Chandrashekhar H S**  
+Future DevOps | Cloud | SRE | AI/ML Engineer
