@@ -58,7 +58,6 @@ Docker/
 │── python-app/
 │── networking/
 │── volumes/
-│── screenshots/
 └── README.md
 ```
 
@@ -183,23 +182,6 @@ docker network create mynetwork
 ```bash
 docker run --network=mynetwork nginx
 ```
-
----
-
-# 📸 Screenshots
-
-Create a folder named:
-
-```bash
-screenshots/
-```
-
-Add screenshots of:
-- Docker installation
-- Running containers
-- Docker commands
-- Nginx running in browser
-- Docker Desktop
 
 ---
 
