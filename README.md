@@ -229,4 +229,4 @@ If you found this repository useful, give it a ⭐ on GitHub and follow for more
 # 👨‍💻 Author
 
 **Chandrashekhar H S**  
-Future DevOps | Cloud | SRE | AI/ML Engineer.
+Future DevOps | Cloud | SRE | AI/ML Engineer
